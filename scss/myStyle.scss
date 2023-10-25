@@ -1,1 +1,117 @@
 @use "resetCSS";
+@use "variables" as var;
+@use "base";
+
+
+.main-card{
+  background: var.$cardBG;
+  border-radius: 12px;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  //-- Image
+  .image-equilibrium {
+    height: auto;
+    width: 20rem;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: block;
+  }
+  &>.image-container{
+    position: relative;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var.$secondary;
+    border-radius: 12px;
+    }
+
+  .icon-view{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  .image-container:hover .overlay {
+    opacity: 0.50;
+  }
+  .image-container:hover .icon-view {
+    opacity: 1;
+  }
+
+
+  //-- Header
+  h2{
+    color: var.$white;
+    padding: 1em 0 .5em 0;
+    font-size: 24px;
+    font-weight: var.$font-weight600;
+  }
+  //-- paragraph
+  .description{
+    padding-bottom: 1em;
+    font-weight: var.$font-weight300;
+  }
+  //-- Cost and Clock Container
+  .cost-clock-container{
+    display: flex;
+    //--Left Side
+    .container-left{
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      color: var.$secondary;
+      //icon-ethereum
+      img{
+        height: 15px;
+        width: auto;
+        padding-right: 5px;
+      }
+    }
+    //-- Right Side
+    .container-right{
+      display: flex;
+      align-items: center;
+      //icon-ethereum
+      img{
+        height: 15px;
+        width: auto;
+        padding-right: 5px;
+      }
+    }
+  }
+  hr{
+    margin: .5em 0 1em 0;
+    color: var.$line;
+    height:1px
+  }
+  div{
+    display: flex;
+    align-items: center;
+    font-weight: var.$font-weight300;
+    span{
+      color: var.$white;
+    }
+
+  }
+
+  .image-avatar{
+    height: 38px;
+    width: 38px;
+    border: 1px solid var.$white;
+    border-radius: 42px;
+    margin-right: 1em;
+  }
+
+}
