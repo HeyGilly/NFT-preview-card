@@ -32,4 +32,3 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Author
 - LinkedIn - [@HeyGilly](https://www.linkedin.com/in/heygilly/)
 - Frontend Mentor - [@HeyGilly](https://www.frontendmentor.io/profile/HeyGilly)
-# NFT-preview-card
