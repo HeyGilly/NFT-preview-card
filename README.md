@@ -6,7 +6,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![Screenshot of finished project](./img/)
+![Screenshot of finished project](./images/ScreenShot.png)
 
 ### Links
 
