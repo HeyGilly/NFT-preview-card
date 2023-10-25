@@ -10,7 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Frontend_Mentor](https://)
+- Solution URL: [Frontend_Mentor](https://www.frontendmentor.io/solutions/nftpreviewcard-with-sass-rftnxnuEX_)
 - Live Site URL: [GitHub](https://heygilly.github.io/NFT-preview-card/)
 
 ## My process
